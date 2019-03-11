@@ -1,13 +1,7 @@
 .markup {
-    border: 2px solid black;
-    border-collapse: collapse;
     height: 100%;
     width: 100%;
 
-}
-
-td{
-   border: 2px solid black;
 }
 
 .case{
@@ -47,5 +41,22 @@ td{
 }
 .main_menu li:hover a{
     color: white;
+}
+
+div{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.page_area{
+    float: left;
+    width: 90%;
+    height: 100%;
+}
+.page_menu{
+    float: right;
+    width: 10%;
+    height: 100%;
 }
 
